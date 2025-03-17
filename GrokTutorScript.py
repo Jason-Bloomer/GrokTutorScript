@@ -164,8 +164,9 @@ class QuestionAnswerApp(tk.Tk):
         try:
             pytesseract.pytesseract.tesseract_cmd = self.tesseract_cmd
             image = ImageGrab.grab(bbox=(x1, y1, x2, y2))
-            image.save('temp-OCR.jpg')
-            text = pytesseract.image_to_string(Image.open('temp-OCR.jpg')).strip()
+			temp_img_dir = os.path.expanduser("~/.question_answer_app")
+            image.save(os.path.join(settings_dir, "temp-OCR.jpg"))
+            text = pytesseract.image_to_string(Image.open(os.path.join(settings_dir, "temp-OCR.jpg"))).strip()
             if text:
                 self.question_text.delete('1.0', tk.END)
                 self.question_text.insert(tk.END, text)
