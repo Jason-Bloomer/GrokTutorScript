@@ -50,4 +50,4 @@ Finally, the **"Answer Question"** button will submit the current question, inst
 - Support for Local Queries? (ollama?)
 
 # MISUSE DISCLAIMER
-This tool has the potential to be misused in an academic setting. The user assumes full responsibility of any consequences that may arise from the use of such tool. Usage of AI tools can undermine the integrity and validity of the entire academic industry, most notably when institutions do not implement sufficient Proctoring tools. Circumvention of these integrity validation techniques is highly discouraged.
+This tool has the potential to be misused in an academic setting. The user assumes full responsibility of any consequences that may arise from the use of such tool. Usage of AI tools can undermine the integrity and validity of the entire academic industry, most notably when institutions do not implement sufficient Proctoring tools. This tool should not be used during an exam or evaluation setting, and doing so may garner penalties according to your institution's academic integrity policies.
