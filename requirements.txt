@@ -1,0 +1,4 @@
+requests
+tkinter
+pillow
+pytesseract
