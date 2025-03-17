@@ -40,6 +40,8 @@ The "Instructions" text box contains the system prompt, which instructs Grok on 
 
 Temperature controls how deterministic (random) results are (lower values are generally better), and Max Tokens sets the maximum length of the response. You can lower Max Tokens if you want to be more conservative with your credits.
 
+Finally, the **"Answer Question"** button will submit the current question, instruction, and parameters to Grok, fetch the result and display it in the "Answer" text box at the bottom of the window.
+
 # To-Do List
 - Support for Grok's Any-Order prompting
 - Support for conversation history and context
