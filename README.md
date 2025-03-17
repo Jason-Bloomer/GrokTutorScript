@@ -20,7 +20,7 @@ Tessaract's default install location is: ```C:\Program Files\Tesseract-OCR\tesse
 Login and purchase API credits from https://console.x.ai/
 
 To create an API key click the key symbol on the left side of the screen, then the "Create API Key" button, as seen below;
-![How To Create xAI API Key](./images/xAI-Create-Key.png "How To Create xAI API Key")
+![How To Create xAI API Key](./images/xAI-Create-Key.PNG "How To Create xAI API Key")
 
 Enter a name (it doesn't matter) and press save. You will be shown a text output containing your API Key, but we don't need the whole command.
 
